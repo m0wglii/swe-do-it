@@ -1,93 +1,77 @@
 /* Globale Stile für den gesamten Body der Seite */
 body {
-  font-family: Arial, sans-serif; /* Verwendete Schriftart für den Text auf der Seite */
-  background-color: #f0f0f0; /* Hintergrundfarbe des gesamten Dokuments */
-  margin: 0; /* Entfernt den Seitenrand, um eine konsistente Darstellung sicherzustellen */
-  padding: 0; /* Entfernt den Innenabstand des Body-Elements */
+    font-family: Arial, sans-serif; /* Verwendete Schriftart für den Text auf der Seite */
+    background-color: #f0f0f0; /* Hintergrundfarbe des gesamten Dokuments */
+    margin: 0; /* Entfernt den Seitenrand, um eine konsistente Darstellung sicherzustellen */
+    padding: 0; /* Entfernt den Innenabstand des Body-Elements */
 }
 
 /* Stil für den Hauptcontainer, der die Liste enthält */
 .container {
-  max-width: 400px; /* Legt die maximale Breite des Containers fest */
-  margin: 0 auto; /* Zentriert den Container horizontal auf der Seite */
-  background-color: #fff; /* Hintergrundfarbe des Container-Bereichs */
-  padding: 20px; /* Innenabstand des Containers */
-  border-radius: 5px; /* Abrundung der Ecken des Containers */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Fügt einen Schatten um den Container hinzu */
+    max-width: 400px; /* Legt die maximale Breite des Containers fest */
+    margin: 0 auto; /* Zentriert den Container horizontal auf der Seite */
+    background-color: #fff; /* Hintergrundfarbe des Container-Bereichs */
+    padding: 20px; /* Innenabstand des Containers */
+    border-radius: 5px; /* Abrundung der Ecken des Containers */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Fügt einen Schatten um den Container hinzu */
 }
 
 /* Stil für die Überschrift "´Let's do IT" */
 h1 {
-  text-align: center; /* Zentriert den Text horizontal auf der Seite */
+    text-align: center; /* Zentriert den Text horizontal auf der Seite */
 }
 
 /* Stil für den Container, der Eingabefeld und Hinzufügen-Button enthält */
 .eingabe-container {
-  display: flex; /* Ermöglicht das Nebeneinander von Eingabefeld und Button */
-  margin-bottom: 10px; /* Abstand unterhalb des Containers */
+    display: flex; /* Ermöglicht das Nebeneinander von Eingabefeld und Button */
+    margin-bottom: 10px; /* Abstand unterhalb des Containers */
 }
 
 /* Stil für das Texteingabefeld */
 input[type="text"] {
-  flex-grow: 1; /* Lässt das Eingabefeld flexibel wachsen, um den verfügbaren Platz auszufüllen */
-  padding: 10px; /* Innenabstand des Eingabefelds */
-  border: 1px solid #ccc; /* Rand um das Eingabefeld mit Graufärbung */
-  border-radius: 5px; /* Abrundung der Ecken des Eingabefelds */
+    flex-grow: 1; /* Lässt das Eingabefeld flexibel wachsen, um den verfügbaren Platz auszufüllen */
+    padding: 10px; /* Innenabstand des Eingabefelds */
+    border: 1px solid #ccc; /* Rand um das Eingabefeld mit Graufärbung */
+    border-radius: 5px; /* Abrundung der Ecken des Eingabefelds */
 }
 
 /* Stil für den Hinzufügen-Button */
 button {
-  padding: 10px 15px; /* Innenabstand des Buttons */
-  background-color: #007bff; /* Hintergrundfarbe des Buttons */
-  color: #fff; /* Textfarbe des Buttons */
-  border: none; /* Entfernt die Rahmen um den Button */
-  border-radius: 5px; /* Abrundung der Ecken des Buttons */
-  cursor: pointer; /* Zeigt den Mauszeiger als Zeigefinger an, um Benutzerinteraktion anzuzeigen */
-}
-
-/* Stil für den Status-Button (Erledigt-Button) */
-.status {
-  display: flex; /* Ermöglicht das Nebeneinander von Symbol und Text im Button */
-  background-color: #28a745; /* Hintergrundfarbe für den "Erledigt"-Button */
-  color: #fff; /* Textfarbe des Buttons */
-  border: none; /* Entfernt die Rahmen um den Button */
-  border-radius: 5px; /* Abrundung der Ecken des Buttons */
-  cursor: pointer; /* Zeigt den Mauszeiger als Zeigefinger an */
-  transition: background-color 0.3s ease; /* Hinzufügen eines Farbübergangseffekts */
-}
-
-/* Stile für den Status-Button beim Überfahren mit der Maus */
-.status:hover {
-  background-color: #218838; /* Dunklere Hintergrundfarbe beim Hovern mit der Maus */
+    padding: 10px 15px; /* Innenabstand des Buttons */
+    background-color: #007bff; /* Hintergrundfarbe des Buttons */
+    color: #fff; /* Textfarbe des Buttons */
+    border: none; /* Entfernt die Rahmen um den Button */
+    border-radius: 5px; /* Abrundung der Ecken des Buttons */
+    cursor: pointer; /* Zeigt den Mauszeiger als Zeigefinger an, um Benutzerinteraktion anzuzeigen */
 }
 
 /* Stile für die Aufgabenliste */
 ul {
-  list-style-type: none; /* Entfernt die Aufzählungspunkte vor den Listenitems */
-  padding: 0; /* Entfernt den Innenabstand der Liste */
+    list-style-type: none; /* Entfernt die Aufzählungspunkte vor den Listenitems */
+    padding: 0; /* Entfernt den Innenabstand der Liste */
 }
 
 /* Stile für jedes Listenitem (Aufgabe) */
 li {
-  display: flex; /* Ermöglicht das Nebeneinander von Inhalten in jedem Listenitem */
-  justify-content: space-between; /* Verteilt den verfügbaren Platz zwischen den Elementen */
-  align-items: center; /* Zentriert die Inhalte vertikal */
-  padding: 10px; /* Innenabstand der Listenitems */
-  border-bottom: 1px solid #ccc; /* Fügt eine graue Trennlinie zwischen den Listenitems hinzu */
+    display: flex; /* Ermöglicht das Nebeneinander von Inhalten in jedem Listenitem */
+    justify-content: space-between; /* Verteilt den verfügbaren Platz zwischen den Elementen */
+    align-items: center; /* Zentriert die Inhalte vertikal */
+    padding: 10px; /* Innenabstand der Listenitems */
+    border-bottom: 1px solid #ccc; /* Fügt eine graue Trennlinie zwischen den Listenitems hinzu */
 }
 
 /* Stile für den "Löschen"-Button */
 button.loeschen {
-  order: 3; /* Ändert die Reihenfolge des "Löschen"-Buttons, um ihn ans Ende des Listenelements zu verschieben */
-  background-color: #dc3545; /* Rote Farbe für den "Löschen"-Button */
-  color: #fff; /* Textfarbe des Buttons */
-  border: none; /* Entfernt die Rahmen um den Button */
-  border-radius: 5px; /* Abrundung der Ecken des Buttons */
-  cursor: pointer; /* Zeigt den Mauszeiger als Zeigefinger an */
-  transition: background-color 0.3s ease; /* Hinzufügen eines Farbübergangseffekts */
+    order: 3; /* Ändert die Reihenfolge des "Löschen"-Buttons, um ihn ans Ende des Listenelements zu verschieben */
+    background-color: #dc3545; /* Rote Farbe für den "Löschen"-Button */
+    color: #fff; /* Textfarbe des Buttons */
+    border: none; /* Entfernt die Rahmen um den Button */
+    border-radius: 5px; /* Abrundung der Ecken des Buttons */
+    cursor: pointer; /* Zeigt den Mauszeiger als Zeigefinger an */
+    transition: background-color 0.3s ease; /* Hinzufügen eines Farbübergangseffekts */
 }
 
 /* Stile für den "Löschen"-Button beim Überfahren mit der Maus */
 button.loeschen:hover {
-  background-color: #c82333; /* Dunklere rote Hintergrundfarbe beim Überfahren mit der Maus */
+    background-color: #c82333; /* Dunklere rote Hintergrundfarbe beim Überfahren mit der Maus */
 }

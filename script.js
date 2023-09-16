@@ -141,7 +141,7 @@ aufgabeHinzufuegen.addEventListener("click", () => {
         // Schritt 6: Leere das Texteingabefeld für die nächste Eingabe
         aufgabenEingabe.value = "";
         // Schritt 7: Aktualisiere die Anzeige der Aufgabenliste auf der Benutzeroberfläche
-        zeigeAufgaben(); // Aufgabenliste aktualisieren
+        zeigeAufgaben();
     }
 });
 
@@ -165,7 +165,7 @@ aufgabenEingabe.addEventListener("keydown", (event) => {
             // Schritt 6: Leere das Texteingabefeld für die nächste Eingabe
             aufgabenEingabe.value = "";
             // Schritt 7: Aktualisiere die Anzeige der Aufgabenliste auf der Benutzeroberfläche
-            zeigeAufgaben(); // Aufgabenliste aktualisieren
+            zeigeAufgaben();
         }
     }
 });

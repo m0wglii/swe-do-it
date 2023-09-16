@@ -1,0 +1,45 @@
+<!--suppress HtmlFormInputWithoutLabel -->
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <!-- Die folgende Zeile definiert die Zeichencodierung des Dokuments als UTF-8,
+         um sicherzustellen, dass Sonderzeichen korrekt dargestellt werden. -->
+    <meta charset="UTF-8" />
+    <!-- Die folgende Zeile stellt sicher, dass die Webseite auf verschiedenen Geräten
+         und Bildschirmgrößen gut angezeigt wird. -->
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <!-- Der folgende Text wird im Browser-Tab als Titel der Webseite angezeigt. -->
+    <title>Let's Do IT</title>
+    <!-- Hier wird die Verknüpfung zur externen CSS-Datei 'style.css' hergestellt. -->
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Der gesamte Inhalt der Webseite befindet sich innerhalb des 'body'-Tags. -->
+
+    <!-- Der folgende 'div'-Container umschließt den Hauptinhalt der Seite. -->
+    <div class="container">
+      <!-- Die folgende Zeile zeigt eine große Überschrift 'h1' an. -->
+      <h1>Let's do IT</h1>
+
+      <!-- Ein weiterer 'div'-Container für die Eingabe von Aufgaben. -->
+      <div class="eingabe-container">
+        <!-- Ein Texteingabefeld 'input', in dem Benutzer neue Aufgaben eingeben können. -->
+        <input
+          id="aufgabenEingabe"
+          placeholder="Neue Aufgabe hinzufügen..."
+          type="text"
+        />
+        <!-- Ein Button 'button', der verwendet wird, um neue Aufgaben hinzuzufügen. -->
+        <button id="aufgabeHinzufuegen">Hinzufügen</button>
+      </div>
+
+      <!-- Eine ungeordnete Liste 'ul', die verwendet wird, um Aufgaben anzuzeigen. -->
+      <ul id="aufgabenListe">
+        <!-- Aufgaben werden hier hinzugefügt -->
+      </ul>
+    </div>
+
+    <!-- Die folgende Zeile verknüpft die externe JavaScript-Datei 'script.js'. -->
+    <script src="script.js"></script>
+  </body>
+</html>

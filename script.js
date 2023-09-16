@@ -63,9 +63,7 @@ function zeigeAufgaben() {
             ? "text-decoration: line-through;"
             : "";
         listenElement.innerHTML = `
-            <input type="radio" class="status" ${
-            aufgabe.erledigt ? "checked" : ""
-        }>
+            <input type="radio" class="status" ${aufgabe.erledigt ? "checked" : ""}>
             <span style="${durchgestrichen}">${aufgabe.text}</span>
             <button class="loeschen">Löschen</button>
         `;
